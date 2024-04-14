@@ -1,0 +1,18 @@
+.TreeItem {
+    font-size: 13px;
+    list-style-type: disc;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0px;
+}
+.TreeItem p {
+    margin: 0px;
+    width: 100%;
+}
+
+.TreeItemChildren{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}

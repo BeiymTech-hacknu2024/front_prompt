@@ -1,0 +1,28 @@
+.NotFound {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEAEA;
+}
+
+.NotFound p {
+    cursor: pointer;
+    color: #2d2d2d;
+    font-size: 1vw;
+    font-family: 'Aldrich', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin: 25px 0px;
+
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.NotFound svg text {
+    font-family: 'Inconsolata', monospace;
+}

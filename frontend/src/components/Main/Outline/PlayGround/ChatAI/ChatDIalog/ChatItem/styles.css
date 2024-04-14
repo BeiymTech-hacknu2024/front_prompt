@@ -1,0 +1,31 @@
+.ChatItem {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  padding: 5px 15px;
+  align-items: center;
+  gap: 30px;
+  border-radius: 10px;
+  /* border-bottom: 1px solid #363636; */
+  border-bottom: 1px solid #406575;
+
+  /* background: #E9E9E9; */
+}
+.ChatInputContainer {
+  width: 100%;
+}
+.ChatInput {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}

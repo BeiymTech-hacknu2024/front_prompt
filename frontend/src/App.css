@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Inconsolata:wght@500&family=Montserrat&display=swap');
+@import '~@fortawesome/fontawesome-free/css/all.css';
+input, div, button, p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+/* body {
+  overflow: hidden;
+  height: 10000px;
+} */
+  
+  body::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+  
+  body {
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    scrollbar-width: none; /* For Firefox */
+  }
+
+.easeTransition {
+  -webkit-transition: all 0.03s ease-in;
+}
+
+body, html, #root {
+  width: 100%;
+  height: 100%;
+}

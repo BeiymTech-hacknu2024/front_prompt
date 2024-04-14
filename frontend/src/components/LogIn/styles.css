@@ -1,0 +1,125 @@
+.LoginWrapper {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(195, 204, 224);
+}
+
+.LogIn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  --webkit-user-select: none;
+
+  position: absolute;
+  z-index: 2;
+}
+.LogInTitle {
+  margin-left: 15px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.LogInForm {
+  display: flex;
+  flex-direction: column;
+}
+.LogInGrid {
+  width: 400px;
+
+  /* background-color: #293437; */
+  border: 1px solid rgba(26, 26, 26, 0.1);
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+
+  padding: 35px 0px;
+  border-radius: 15px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.registerButton {
+  display: flex;
+  justify-content: end;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.registerButton button {
+  letter-spacing: 1px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.LogInEmail,
+.LogInPassword {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 80px;
+
+  /* background-color: #EAEAEA; */
+  /* opacity: 50%; */
+  /* backdrop-filter: blur(250px);
+    -webkit-backdrop-filter: blur(250px);  */
+  border: 1px solid rgba(26, 26, 26, 0.1);
+
+  border-radius: 15px;
+}
+.LogInEmail input,
+.LogInPassword input {
+  width: 80%;
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: black;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  --webkit-appearance: none;
+}
+.LogInPassword svg {
+  cursor: pointer;
+  opacity: 50%;
+  margin-right: 20px;
+}
+.submitLogInButton {
+  display: flex;
+  padding-top: 15px;
+  width: 300px;
+  justify-content: center;
+}
+.submitLogInButton button {
+  cursor: pointer;
+  border: none;
+  background-color: #3a4ccf;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: #eaeaea;
+  font-size: 14px;
+  font-weight: 600;
+  align-self: center;
+}
+.divErrorMessage {
+  display: flex;
+  width: 300px;
+  margin-left: 20px;
+}
+.ErrorMessage {
+  margin: 0;
+  font-size: 12px;
+  color: rgb(237, 82, 82);
+}

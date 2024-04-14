@@ -1,0 +1,6 @@
+[submodule "welcome"]
+	path = welcome
+	url = git@github.com:reestear/kaizenify-app.git
+[submodule "client"]
+	path = client
+	url = git@github.com:reestear/Kaizenify-Client.git

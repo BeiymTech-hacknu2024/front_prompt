@@ -1,0 +1,19 @@
+.link {
+  stroke: #aaa0a0;
+}
+.highlighted {
+  fill: orange;
+}
+/* .node{
+    z-index: 99999;
+} */
+/* .backgroundRect{
+    position: relative;
+    z-index: 1;
+} */
+.node circle {
+  cursor: pointer;
+  margin: 5px;
+  position: relative;
+  z-index: 9999;
+}
