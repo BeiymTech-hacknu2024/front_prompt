@@ -175,33 +175,33 @@ const TreeLayout = React.memo(
       );
 
       // Append the vertical lines to the zoom container
-      zoomContainer
-        .selectAll(".vertical-line")
-        .data(verticalLineX)
-        .enter()
-        .append("line")
-        .attr("class", "vertical-line")
-        .attr("x1", (d) => d)
-        .attr("y1", -scaleFactor * height)
-        .attr("x2", (d) => d)
-        .attr("y2", scaleFactor * height)
-        .style("stroke", darkTheme ? "#505050" : "#aaa0a0") // Adjust the line color as desired
-        .style("stroke-width", 1); // Adjust the line width as desired
+      // zoomContainer
+      //   .selectAll(".vertical-line")
+      //   .data(verticalLineX)
+      //   .enter()
+      //   .append("line")
+      //   .attr("class", "vertical-line")
+      //   .attr("x1", (d) => d)
+      //   .attr("y1", -scaleFactor * height)
+      //   .attr("x2", (d) => d)
+      //   .attr("y2", scaleFactor * height)
+      //   .style("stroke", darkTheme ? "#505050" : "#aaa0a0") // Adjust the line color as desired
+      //   .style("stroke-width", 1); // Adjust the line width as desired
       // .style("stroke-dasharray", "2,2"); // Adjust the line dash pattern as desired
 
       // Append the horizontal lines to the zoom container
-      zoomContainer
-        .selectAll(".horizontal-line")
-        .data(horizontalLineY)
-        .enter()
-        .append("line")
-        .attr("class", "horizontal-line")
-        .attr("x1", -scaleFactor * width)
-        .attr("y1", (d) => d)
-        .attr("x2", scaleFactor * width)
-        .attr("y2", (d) => d)
-        .style("stroke", darkTheme ? "#505050" : "#aaa0a0") // Adjust the line color as desired
-        .style("stroke-width", 1); // Adjust the line width as desired
+      // zoomContainer
+      //   .selectAll(".horizontal-line")
+      //   .data(horizontalLineY)
+      //   .enter()
+      //   .append("line")
+      //   .attr("class", "horizontal-line")
+      //   .attr("x1", -scaleFactor * width)
+      //   .attr("y1", (d) => d)
+      //   .attr("x2", scaleFactor * width)
+      //   .attr("y2", (d) => d)
+      //   .style("stroke", darkTheme ? "#505050" : "#aaa0a0") // Adjust the line color as desired
+      //   .style("stroke-width", 1); // Adjust the line width as desired
       // .style("stroke-dasharray", "2,2"); // Adjust the line dash pattern as desired
     }, [darkTheme]);
 
